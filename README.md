@@ -1,2 +1,2 @@
-# Android-Dicoding-Intermediate
-Kumpulan Latihan Dicoding Intermediate
+# Android-Dicoding-Pemula
+Kumpulan Latihan Dicoding Pemula

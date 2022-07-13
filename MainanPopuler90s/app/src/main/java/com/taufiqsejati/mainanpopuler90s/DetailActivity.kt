@@ -48,6 +48,9 @@ class DetailActivity : AppCompatActivity() {
         val picture4: Button = findViewById(R.id.bt4)
         picture1.isEnabled = false
         picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+        picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+        picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+        picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
         picture1.setOnClickListener {
             if (title == "Balon Tiup") {
                 heroImg.setImageResource(photo)

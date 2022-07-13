@@ -23,43 +23,36 @@
         <item name="android:textColor">@color/primaryTextColor</item>
     </style>
 
-    <style name="TextContent">
+    <style name="TextSpec">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginRight">16dp</item>
+
     </style>
-    <style name="TextContent.Small">
-        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Subtitle1</item>
-    </style>
-    <style name="TextContent.Small.White">
-        <item name="android:textColor">@android:color/white</item>
-    </style>
-    <style name="TextContent.Subtitle">
-        <item name="android:textColor">@color/secondaryColor</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-    <style name="TextSpec">
-        <item name="android:textSize">14sp</item>
+    <style name="TextSpec.Header">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline5</item>
+<!--        <item name="android:textColor">@color/primaryTextColor</item>-->
     </style>
     <style name="TextSpec.Field">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Subtitle1</item>
         <item name="android:textColor">@color/primaryTextColor</item>
     </style>
     <style name="TextSpec.Value">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body2</item>
         <item name="android:textColor">@color/secondaryColor</item>
     </style>
     <style name="ButtonGeneral">
-        <item name="android:backgroundTint">@color/secondaryColor</item>
-        <item name="android:layout_width">match_parent</item>
+<!--        <item name="android:backgroundTint">@color/secondaryColor</item>-->
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginRight">16dp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginBottom">16dp</item>
+        <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button</item>
+<!--        android:layout_weight="1"-->
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
     </style>
 </resources>

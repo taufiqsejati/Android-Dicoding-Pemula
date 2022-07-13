@@ -24,12 +24,11 @@ class DetailActivity : AppCompatActivity() {
         val title = intent.getStringExtra(EXTRA_TITLE)
         val subtitle = intent.getStringExtra(EXTRA_SUBTITLE)
         val photo = intent.getIntExtra(EXTRA_PHOTO, 0)
-        val text = "Title : $title, \nYour Subtitle : $subtitle, \n"
 
-        val sinopsis : TextView =  findViewById(R.id.deskripsi_mainan)
+        val sinopsis: TextView = findViewById(R.id.deskripsi_mainan)
         sinopsis.setText(subtitle)
 
-        val judul : TextView =  findViewById(R.id.judul_mainan)
+        val judul: TextView = findViewById(R.id.judul_mainan)
         judul.setText(title)
 
         val heroImg: ImageView
@@ -47,67 +46,64 @@ class DetailActivity : AppCompatActivity() {
         val picture3: Button = findViewById(R.id.bt3)
         val picture4: Button = findViewById(R.id.bt4)
         picture1.isEnabled = false
-        picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
-        picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
-        picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
-        picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+//
         picture1.setOnClickListener {
             if (title == "Balon Tiup") {
                 heroImg.setImageResource(photo)
                 picture1.isEnabled = false
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "GameBoy") {
                 heroImg.setImageResource(photo)
                 picture1.isEnabled = false
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Kapal Kapalan") {
                 heroImg.setImageResource(photo)
                 picture1.isEnabled = false
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Kelereng") {
                 heroImg.setImageResource(photo)
                 picture1.isEnabled = false
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Ketapel") {
                 heroImg.setImageResource(photo)
                 picture1.isEnabled = false
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Lego") {
                 heroImg.setImageResource(photo)
                 picture1.isEnabled = false
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Monopoli") {
                 heroImg.setImageResource(photo)
                 picture1.isEnabled = false
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Nintendo") {
                 heroImg.setImageResource(photo)
                 picture1.isEnabled = false
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Tamagotchi") {
                 heroImg.setImageResource(photo)
                 picture1.isEnabled = false
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Yoyo") {
                 heroImg.setImageResource(photo)
                 picture1.isEnabled = false
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             picture2.isEnabled = true
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
             picture3.isEnabled = true
-            picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
             picture4.isEnabled = true
-            picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
 
         }
 
@@ -115,177 +111,177 @@ class DetailActivity : AppCompatActivity() {
             if (title == "Balon Tiup") {
                 heroImg.setImageResource(R.drawable.balon_tiup1)
                 picture2.isEnabled = false
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "GameBoy") {
                 heroImg.setImageResource(R.drawable.gameboy1)
                 picture2.isEnabled = false
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Kapal Kapalan") {
                 heroImg.setImageResource(R.drawable.kapal_kapalan1)
                 picture2.isEnabled = false
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Kelereng") {
                 heroImg.setImageResource(R.drawable.kelereng1)
                 picture2.isEnabled = false
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Ketapel") {
                 heroImg.setImageResource(R.drawable.ketapel1)
                 picture2.isEnabled = false
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Lego") {
                 heroImg.setImageResource(R.drawable.lego1)
                 picture2.isEnabled = false
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Monopoli") {
                 heroImg.setImageResource(R.drawable.monopoli1)
                 picture2.isEnabled = false
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Nintendo") {
                 heroImg.setImageResource(R.drawable.nintendo1)
                 picture2.isEnabled = false
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Tamagotchi") {
                 heroImg.setImageResource(R.drawable.tamagotchi1)
                 picture2.isEnabled = false
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Yoyo") {
                 heroImg.setImageResource(R.drawable.yoyo1)
                 picture2.isEnabled = false
-                picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             picture1.isEnabled = true
-                picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
             picture3.isEnabled = true
-            picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
             picture4.isEnabled = true
-            picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
         }
 
         picture3.setOnClickListener {
             if (title == "Balon Tiup") {
                 heroImg.setImageResource(R.drawable.balon_tiup2)
                 picture3.isEnabled = false
-                picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "GameBoy") {
                 heroImg.setImageResource(R.drawable.gameboy2)
                 picture3.isEnabled = false
-                picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Kapal Kapalan") {
                 heroImg.setImageResource(R.drawable.kapal_kapalan2)
                 picture3.isEnabled = false
-                picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Kelereng") {
                 heroImg.setImageResource(R.drawable.kelereng2)
                 picture3.isEnabled = false
-                picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Ketapel") {
                 heroImg.setImageResource(R.drawable.ketapel2)
                 picture3.isEnabled = false
-                picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Lego") {
                 heroImg.setImageResource(R.drawable.lego2)
                 picture3.isEnabled = false
-                picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Monopoli") {
                 heroImg.setImageResource(R.drawable.monopoli2)
                 picture3.isEnabled = false
-                picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Nintendo") {
                 heroImg.setImageResource(R.drawable.nintendo2)
                 picture3.isEnabled = false
-                picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Tamagotchi") {
                 heroImg.setImageResource(R.drawable.tamagotchi2)
                 picture3.isEnabled = false
-                picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Yoyo") {
                 heroImg.setImageResource(R.drawable.yoyo2)
                 picture3.isEnabled = false
-                picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             picture1.isEnabled = true
-            picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
             picture2.isEnabled = true
-            picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
             picture4.isEnabled = true
-            picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
         }
 
         picture4.setOnClickListener {
             if (title == "Balon Tiup") {
                 heroImg.setImageResource(R.drawable.balon_tiup3)
                 picture4.isEnabled = false
-                picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "GameBoy") {
                 heroImg.setImageResource(R.drawable.gameboy3)
                 picture4.isEnabled = false
-                picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Kapal Kapalan") {
                 heroImg.setImageResource(R.drawable.kapal_kapalan3)
                 picture4.isEnabled = false
-                picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Kelereng") {
                 heroImg.setImageResource(R.drawable.kelereng3)
                 picture4.isEnabled = false
-                picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Ketapel") {
                 heroImg.setImageResource(R.drawable.ketapel3)
                 picture4.isEnabled = false
-                picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Lego") {
                 heroImg.setImageResource(R.drawable.lego3)
                 picture4.isEnabled = false
-                picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Monopoli") {
                 heroImg.setImageResource(R.drawable.monopoli3)
                 picture4.isEnabled = false
-                picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Nintendo") {
                 heroImg.setImageResource(R.drawable.nintendo3)
                 picture4.isEnabled = false
-                picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Tamagotchi") {
                 heroImg.setImageResource(R.drawable.tamagotchi3)
                 picture4.isEnabled = false
-                picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             if (title == "Yoyo") {
                 heroImg.setImageResource(R.drawable.yoyo3)
                 picture4.isEnabled = false
-                picture4.setTextColor(ResourcesCompat.getColor(getResources(), R.color.secondaryTextColor, null))
+
             }
             picture1.isEnabled = true
-            picture1.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
             picture2.isEnabled = true
-            picture2.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
             picture3.isEnabled = true
-            picture3.setTextColor(ResourcesCompat.getColor(getResources(), R.color.primaryTextColor, null))
+
         }
 
 

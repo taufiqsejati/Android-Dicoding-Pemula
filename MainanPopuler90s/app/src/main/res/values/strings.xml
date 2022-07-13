@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mainan Populer 90\'s</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="title">Title</string>
+    <string name="data_received">Data Diterima</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="judul">Judul</string>
+    <string name="image_4">Image 4</string>
+    <string name="image_1">Image 1</string>
+    <string name="image_3">Image 3</string>
+    <string name="image_2">Image 2</string>
+    <string name="image">Image</string>
+    <string name="my_name">Muhammad Taufiq</string>
+    <string name="my_email">taufiq_sejati@rocketmail.com</string>
+</resources>

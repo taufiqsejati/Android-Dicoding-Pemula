@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/image_mainan"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingBottom="10dp"
+                android:scaleType="centerInside"
+                tools:src="@color/primaryDarkColor"
+                android:contentDescription="@string/image" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/image_1"
+                    android:layout_marginLeft="2.5dp"
+                    />
+
+                <Button
+                    android:id="@+id/bt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/image_2"
+                    android:layout_marginHorizontal="2.5dp"
+                     />
+
+                <Button
+                    android:id="@+id/bt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/image_3"
+                    android:layout_marginHorizontal="2.5dp"
+                     />
+
+                <Button
+                    android:id="@+id/bt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/image_4"
+                    android:layout_marginRight="2.5dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvJudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                android:text="@string/judul"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                style="@style/TextSpec.Field"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/primaryLightColor" />
+
+            <TextView
+                android:id="@+id/judul_mainan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                style="@style/TextSpec.Value"
+                tools:text="judul_movies" />
+
+            <TextView
+                android:id="@+id/tvDeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+                android:padding="8dp"
+                android:text="@string/deskripsi"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                style="@style/TextSpec.Field" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/primaryLightColor" />
+
+            <TextView
+                android:id="@+id/deskripsi_mainan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                style="@style/TextSpec.Value"
+                tools:text="sinopsis_desc" />
+
+        </LinearLayout>
+    </ScrollView>
